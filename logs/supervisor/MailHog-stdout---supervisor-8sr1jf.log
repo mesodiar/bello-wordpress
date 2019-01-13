@@ -1,0 +1,190 @@
+[HTTP] Binding to address: :1080
+Creating API v1 with WebPath: 
+Creating API v2 with WebPath: 
+Got message in APIv2 websocket channel
+[APIv2] BROADCAST /api/v2/websocket
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "yYPCyOYBFrKmI-PqibC9nP9KEa9WAK7SRNhBMANAFZE=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "nobody",
+    "Domain": "4a1b823e7c64",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "mailhog",
+      "Domain": "flywheel.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Type": [
+        "text/plain; charset=UTF-8"
+      ],
+      "Date": [
+        "Sun, 13 Jan 2019 02:50:42 +0000"
+      ],
+      "From": [
+        "WordPress \u003cwordpress@pronto-two.local\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "\u003c7d9fc443bcbaa36b7470b494c19f714e@pronto-two.local\u003e"
+      ],
+      "Received": [
+        "from localhost by mailhog.example (MailHog)\r\n          id yYPCyOYBFrKmI-PqibC9nP9KEa9WAK7SRNhBMANAFZE=@mailhog.example; Sun, 13 Jan 2019 02:50:42 +0000"
+      ],
+      "Return-Path": [
+        "\u003cnobody@4a1b823e7c64\u003e"
+      ],
+      "Subject": [
+        "New WordPress Site"
+      ],
+      "To": [
+        "mils@prontomarketing.com"
+      ],
+      "X-Mailer": [
+        "PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)"
+      ],
+      "X-PHP-Originating-Script": [
+        "0:class-phpmailer.php"
+      ]
+    },
+    "Body": "Your new WordPress site has been successfully set up at:\r\n\r\nhttp://pronto-two.local\r\n\r\nYou can log in to the administrator account with the following information:\r\n\r\nUsername: admin\r\nPassword: The password you chose during installation.\r\nLog in here: http://pronto-two.local/wp-login.php\r\n\r\nWe hope you enjoy your new site. Thanks!\r\n\r\n--The WordPress Team\r\nhttps://wordpress.org/\r\n",
+    "Size": 770,
+    "MIME": null
+  },
+  "Created": "2019-01-13T02:50:42.105395026Z",
+  "MIME": null,
+  "Raw": {
+    "From": "nobody@4a1b823e7c64",
+    "To": [
+      "mailhog@flywheel.local"
+    ],
+    "Data": "To: mils@prontomarketing.com\r\nSubject: New WordPress Site\r\nX-PHP-Originating-Script: 0:class-phpmailer.php\r\nDate: Sun, 13 Jan 2019 02:50:42 +0000\r\nFrom: WordPress \u003cwordpress@pronto-two.local\u003e\r\nMessage-ID: \u003c7d9fc443bcbaa36b7470b494c19f714e@pronto-two.local\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nYour new WordPress site has been successfully set up at:\r\n\r\nhttp://pronto-two.local\r\n\r\nYou can log in to the administrator account with the following information:\r\n\r\nUsername: admin\r\nPassword: The password you chose during installation.\r\nLog in here: http://pronto-two.local/wp-login.php\r\n\r\nWe hope you enjoy your new site. Thanks!\r\n\r\n--The WordPress Team\r\nhttps://wordpress.org/\r\n",
+    "Helo": "localhost"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv2] GET /api/v2/jim
+[APIv2] GET /api/v2/messages
+[APIv2] GET /api/v2/websocket
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
