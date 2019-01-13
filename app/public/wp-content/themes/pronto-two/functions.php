@@ -66,6 +66,19 @@ wp_enqueue_script(
 
 wp_localize_script(
 	'my-ajax-script',
-	'my_ajax_obj',
+	'my_ajax_url',
 	admin_url( 'admin-ajax.php' )
 );
+wp_localize_script(
+	'my-ajax-script',
+	'my_verbose',
+	'Thorhirah'
+);
+
+add_action( 'wp_ajax_show_me_who_verbose', 'my_ajax_handler' );
+function my_ajax_handler(){
+	$my_name = $_POST['my_name'];
+	$my_verbose = $_POST['my_verbose'];
+
+	echo $my_name . ' said she is ' . $my_verbose . ' THOHIRAH <3 ';
+}
