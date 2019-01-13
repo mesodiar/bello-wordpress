@@ -2,7 +2,13 @@
 
 add_filter( 'the_title', 'upperText', 10, 1 ); // priority กะ จน argumentไม่ใส่ก็ได้
 function upperText( $title ){
-	return strtoupper( $title );
+	global $post;
+
+	if ( 'projects' == $post->post_type ) {
+		return $title;
+	} else {
+		return strtoupper( $title );
+	}
 }
 
 add_action( 'print_credits', 'print_my_credits', 10, 1 );
@@ -35,9 +41,12 @@ function add_my_custom_box(){
 	);
 }
 
-function my_custom_box_html() {
-    echo '<label for="my_field">Place the custom data yeah </label>';
-	echo '<input type="text" name="my_custom_data"/>';
+function my_custom_box_html( $post ) {
+?>
+	<label for="my_field">Place the custom data yeah </label>
+	<input type="text" name="my_custom_data" value="<?php echo get_post_meta( $post->ID, 'my_custom_data', true); ?>"/>
+
+<?php
 }
 
 add_action('save_post', 'save_my_postdata');
@@ -48,3 +57,9 @@ function save_my_postdata( $post_id ){
 		$_POST['my_custom_data']
 	);
 }
+
+wp_enqueue_script(
+	'my-ajax-script',
+	get_template_directory_uri() . '/js/myjquery.js',
+	array('jquery')
+);

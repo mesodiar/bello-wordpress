@@ -177,3 +177,4 @@ Stack trace:
 #8 {main}
   thrown in /app/public/wp-includes/plugin.php on line 176
 [13-Jan-2019 06:44:03 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'my_wporg_custom_box_html' not found or invalid function name in /app/public/wp-admin/includes/template.php on line 1215
+[13-Jan-2019 06:58:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/pronto-two/functions.php on line 53
