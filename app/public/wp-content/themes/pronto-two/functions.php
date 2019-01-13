@@ -63,3 +63,9 @@ wp_enqueue_script(
 	get_template_directory_uri() . '/js/myjquery.js',
 	array('jquery')
 );
+
+wp_localize_script(
+	'my-ajax-script',
+	'my_ajax_obj',
+	admin_url( 'admin-ajax.php' )
+);
