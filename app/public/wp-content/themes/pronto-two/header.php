@@ -1,6 +1,7 @@
 <html>
 <head>
 	<title>Pronto Two</title>
+	<?php wp_head(); ?>
 </head>
 
 <body>
